@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'poppins';
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+.kotak {
+    flex: 1;
+    padding: 20px;
+    font-weight: lighter;
+}
+h4{
+    margin-top: -10px;
+    text-decoration: none;
+}
+h2{
+    margin-top:30px;
+    text-decoration: none;
+}
+.beranda {
+    width: 300px;
+    background-color: #dc3545;
+    padding-top: 20px;
+    color: white;
+}
+
+.beranda h3{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: -0.2px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+hr{
+    margin-top: 20px;
+    border-color: whitesmoke;
+}
+.beranda dd{
+    padding: 20px;
+    margin-left: -1px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(211, 211, 211);
+}
+.beranda dd:hover{
+    background-color: rgb(228, 228, 228);
+    color: #dc3545;
+}
+
+.btn-tambah {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: rgb(0, 148, 211);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-tambah:hover {
+    background-color: rgb(0, 120, 180);
+}
+
+.kotak-box{
+    margin-top: 20px;
+    background: white;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    width: 96.8%;
+    padding: 20px;
+}
+
+.kotak-box h4{
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+
+.kotak-box hr{
+    margin-bottom: 20px;
+}
+
+.tabel-dokter {
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabel-dokter th {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-weight: bold;
+}
+.tabel-dokter td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-weight: normal;
+}
+.aksi {
+    padding: 6px 10px;
+    margin: 0 3px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.edit {
+    background-color: orange;
+}
+
+.delete {
+    background-color: red;
+}
+
+input {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+label{
+    font-weight: normal;
+    font-size: 14px;
+}

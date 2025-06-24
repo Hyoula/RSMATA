@@ -1,0 +1,20 @@
+[
+    { 
+        "name": "RS Mata Provinsi SULUT", 
+        "lat": 1.463171844093989,
+        "lng": 124.84740080088618,
+        "type": "rs"
+    },
+    { 
+        "name": "SMEC Manado", 
+        "lat": 1.4579713608150013 ,
+        "lng": 124.81848556273405,
+        "type": "klinik"
+    },
+    { 
+        "name": "Klinik Mata Dr. Batuna", 
+        "lat": 1.4796327153090174,
+        "lng": 124.83557993718277,
+        "type": "klinik" 
+    }
+]
